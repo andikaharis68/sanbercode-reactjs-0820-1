@@ -1,0 +1,78 @@
+.header{
+    text-align: center;
+}
+/*----------------------- CONTACT ---------------*/
+.label {
+    width: 180px;
+    display: inline-block;
+}
+.container{
+    width : 1000px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    height: 100%;
+}
+.margin{
+    margin-left: 10px;
+}
+.margin2{
+    margin-left: 194px;
+}
+
+/*--------------------- INDEX --------------------*/
+/*-------------------- NAVBAR --------------------*/
+.background {
+    background-image: url(../img/pattern.jpg);
+}
+.navbar{
+    background-color:white;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 45px;
+    position: fixed;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar ul li{
+    float: right;
+}
+.navbar ul li a{
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*---------------------------------------------------*/
+/*-------------------- KONTEN -----------------------*/
+.article-list{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.article-list a{
+    text-decoration: none;
+}
+.article-list hr{
+    align : center;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    bottom: 0px;
+}
+footer h5{
+text-align: center;
+color: white;
+}
+.gambar{
+    width: 130px;
+    height: 50px;
+}
