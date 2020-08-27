@@ -24,12 +24,9 @@ for (var angka = 1; angka <= 20; angka++) {
 }
 
 /*============= SOAL 3 ================*/
-for (var i = 1; i <= 7; i++) {
-    var x = []
-    for (var j = 0; j < i; j++) {
-        x.push("#")
-    }
-    console.log(x.join(""))
+var pyramid = '';
+for (pyramid.length = 0; pyramid.length <= 7; pyramid += '#') {
+    console.log(pyramid);
 }
 
 /*============= SOAL 4 ================*/
@@ -43,3 +40,4 @@ for (var i = 0; i < daftarBuah.length; i++) {
     x = daftarBuah.slice(i, i + 1)
     console.log(x.join())
 }
+
