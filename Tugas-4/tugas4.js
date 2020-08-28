@@ -24,11 +24,11 @@ for (var angka = 1; angka <= 20; angka++) {
 }
 
 /*============= SOAL 3 ================*/
-var output = ""
+a = ""
 for (var i = 0; i < 7; i++) {
-    output += "#";
-    console.log(output)
+    console.log(a += "#")
 }
+
 
 /*============= SOAL 4 ================*/
 var kalimat = "saya sangat senang belajar javascript"
