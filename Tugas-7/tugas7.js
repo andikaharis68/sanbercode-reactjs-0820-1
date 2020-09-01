@@ -18,7 +18,7 @@ class Animal {
         this._kaki = x
     }
 }
-var sheep = new Animal("shaun");
+let sheep = new Animal("shaun");
 console.log(sheep.name)
 console.log(sheep.legs)
 console.log(sheep.cold_blooded)
@@ -40,14 +40,14 @@ class Frog extends Animal {
     }
 }
 
-var sungokong = new Ape("kera sakti")
+let sungokong = new Ape("kera sakti")
 sungokong.legs = 2
 console.log(sungokong.name)
 console.log(sungokong.legs)
 console.log(sungokong.cold_blooded)
 console.log(sungokong.yell())
 
-var kodok = new Frog("buduk")
+let kodok = new Frog("buduk")
 console.log(kodok.name)
 console.log(kodok.legs)
 console.log(kodok.cold_blooded)
@@ -60,14 +60,14 @@ class Clock {
         this.template = template
     }
     render() {
-        var date = new Date();
-        var hours = date.getHours();
+        let date = new Date();
+        let hours = date.getHours();
         if (hours < 10) hours = '0' + hours;
-        var mins = date.getMinutes();
+        let mins = date.getMinutes();
         if (mins < 10) mins = '0' + mins;
-        var secs = date.getSeconds();
+        let secs = date.getSeconds();
         if (secs < 10) secs = '0' + secs;
-        var output = this.template
+        let output = this.template
             .replace('h', hours)
             .replace('m', mins)
             .replace('s', secs);
@@ -81,5 +81,5 @@ class Clock {
         this.timer = setInterval(this.render.bind(this), 1000);
     };
 }
-var clock = new Clock({ template: 'h:m:s' });
+let clock = new Clock({ template: 'h:m:s' });
 clock.start(); 
